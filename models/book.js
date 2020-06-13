@@ -8,7 +8,7 @@ const bookSchema = new Schema({
   description: {type: String, required: true},
   image: { type: String, required: true},
   googleId: {type: String, required: true},
-  date: { type: Date, default: Date.now }
+  
 });
 
 const Book = mongoose.model("Book", bookSchema);
