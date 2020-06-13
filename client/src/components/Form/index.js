@@ -25,7 +25,7 @@ function Form({ query, handleInputChange, handleFormSubmit })
         type="submit"
         className="btn btn-lg btn-danger float-right"
         >
-          search</button>
+          Search</button>
       </div>
     </form>
   );
