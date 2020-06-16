@@ -2,8 +2,7 @@ import React from "react";
 import { ListItem } from "../List";
 import { Row, Col } from "../Grid";
 
-function Book ({ title, subtitle, authors, link, description, image, Button }) 
-{
+function Book({ title, subtitle, authors, link, description, image, Button }) {
     return (
         <ListItem>
             <Row className="flex-wrap">
@@ -21,7 +20,7 @@ function Book ({ title, subtitle, authors, link, description, image, Button })
             </Row>
             <Row>
                 <Col size="12 sm-4 md-2">
-                    <img className="img-thumbnail img-fluid w-100" src= {image} alt = {title} />
+                    <img className="img-thumbnail img-fluid w-100" src={image} alt={title} />
                 </Col>
                 <Col size="12 sm-8 md-10">
                     <p>{description}</p>
